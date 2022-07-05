@@ -7,29 +7,46 @@
     width: 100%;
     height: 400px;
     margin: auto;
-    background: url(images/donation6.jpg) no-repeat top left / cover;
+    background: rgba(0, 0, 0, 0.329) url(images/donation6.jpg) no-repeat top left / cover;
+    background-blend-mode: darken;
 }
 
 .head {
-    padding: 100px 0px 0px 0;
     align-items: center;
     text-align: center;
 }
 
 #h-heading {
+    margin: 0 auto 150px auto;
+    padding-top: 15px;
+    width: 60%;
+    border-radius: 130px;
     color: white;
-    font-size: 40px;
-    align-items: center;
-    margin: 0 0 90px 0;
+    font-size: 65px;
+
 }
 
 .h-edit {
     margin: auto;
+    margin-bottom: 15px;
     font-size: 30px;
     color: white;
-    background-color: rgba(10, 10, 10, 0.555);
-    width: 70%;
+    background-color: rgba(0, 0, 0, 0.644);
+    width: 60%;
+    border-radius: 15px;
 }
-header p{
 
+.header p {
+    color: white;
+    margin-bottom: 30px;
+}
+
+.head-button{
+    text-decoration: none;
+    padding: 8px 35px;
+    background-color: rgb(206, 128, 56);
+    border-radius: 10px;
+    color: white;
+    font-size:15px;
+    font-weight: bold;
 }
