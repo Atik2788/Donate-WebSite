@@ -66,9 +66,8 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.para{
+#para{
     margin-top: 25px;
-    background-color: aqua;
 }
 
 #amount {
@@ -81,9 +80,7 @@
 }
 
 #amount p{
-
     padding: 25px 15px;
-
 }
 
 #tkSty{
@@ -100,3 +97,11 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+#otheramount{
+    margin-bottom: 10px;
+}
+hr{
+    margin-bottom: 30px;
+}
+
