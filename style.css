@@ -30,7 +30,7 @@
     background-color: rgba(0, 0, 0, 0.568);
 }
 
-.header p{
+.header p {
     color: white;
     width: 60%;
     margin: auto;
@@ -54,19 +54,19 @@
 /*************DonateSection**************/
 /****************************************/
 
-.donateToday{
+.donateToday {
     margin: 80px auto 0 auto;
     width: 70%;
     text-align: center;
 }
 
-.donateToday h1{
+.hOne {
     font-size: 30px;
     font-weight: bolder;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#para{
+#para {
     margin-top: 25px;
 }
 
@@ -79,18 +79,18 @@
     color: rgb(83, 82, 82);
 }
 
-#amount p{
+#amount p {
     padding: 25px 15px;
 }
 
-#tkSty{
+#tkSty {
     color: red;
     background-color: rgba(218, 63, 63, 0.151);
     border: 2px solid red;
     border-radius: 5px;
 }
 
-#amount :hover{
+#amount :hover {
     color: rgb(228, 96, 96);
     background-color: rgba(218, 63, 63, 0.151);
     border: 2px solid rgb(228, 96, 96);
@@ -98,10 +98,26 @@
     cursor: pointer;
 }
 
-#otheramount{
+#otheramount {
     margin-bottom: 10px;
 }
-hr{
+
+hr {
     margin-bottom: 30px;
 }
 
+
+
+/****************************************/
+/*************DonatePlanSection**************/
+/****************************************/
+
+.plan {
+    margin: 80px auto 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.plan p {
+    padding: 25px 15px;
+}
