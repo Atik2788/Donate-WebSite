@@ -121,3 +121,12 @@ hr {
 .plan p {
     padding: 25px 15px;
 }
+
+#planCard{
+    margin: 50px 0 50px 0;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(83, 82, 82);
+}
