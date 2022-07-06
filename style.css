@@ -19,8 +19,9 @@
     text-shadow: rgb(8, 8, 8) 8px 0 10px;
     font-family: 'Archivo Black', sans-serif;
 }
-#buyHappyness{
-    margin:0 auto 120px auto;
+
+#buyHappyness {
+    margin: 0 auto 120px auto;
     text-align: center;
     font-size: 25px;
     font-weight: bold;
@@ -70,7 +71,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-#para {
+.para {
     margin-top: 25px;
 }
 
@@ -128,15 +129,11 @@ hr {
     text-align: center;
 }
 
-#plan p {
-    padding: 25px;
-}
-
 /***********planCard***************/
 #planCard {
     display: flex;
     width: 85%;
-    margin: 0 auto 0 auto;
+    margin: 30px auto 0 auto;
     justify-content: space-evenly;
 }
 
@@ -245,13 +242,26 @@ hr {
     margin-left: 5%;
 }
 
+/****************************************/
+/**************About-section*************/
+/****************************************/
+#about {
+    margin: 100px 0 10px 0;
+    padding: 30px 7.5% 30px 7.5%;
+    text-align: center;
+    background-image: linear-gradient(rgba(247, 136, 92, 0.363), rgba(255, 196, 0, 0.226));
+}
+
+#about p{
+    text-align: left;
+}
 
 /****************************************/
 /**************UpdateSection*************/
 /****************************************/
 
 #update {
-    margin: 80px auto 0 auto;
+    margin: 70px auto 0 auto;
     width: 70%;
     text-align: center;
 }
@@ -260,10 +270,6 @@ hr {
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 25px auto;
-}
-
-#update p {
-    margin-bottom: 35px;
 }
 
 /*****************************************/
@@ -275,7 +281,7 @@ hr {
     background-color: rgba(0, 255, 255, 0.377);
     height: 150px;
     width: 70%;
-    margin: auto;
+    margin: 50px auto 80px auto;
 }
 
 #form-box input {
@@ -306,7 +312,6 @@ hr {
 /****************************************/
 
 footer {
-    margin-top: 80px;
     height: 125px;
     width: 100%;
     text-align: center;
