@@ -42,7 +42,7 @@
 .head-button {
     text-decoration: none;
     padding: 8px 20px;
-    background-color: rgb(230, 69, 69);
+    background-color: rgb(255, 113, 88);
     border-radius: 5px;
     color: white;
     font-size: 15px;
@@ -136,7 +136,7 @@ hr {
 .planCard{
     display: flex;
     width: 85%;
-    margin: 50px auto 0 auto;
+    margin: 20px auto 0 auto;
     justify-content: space-evenly;
 }
 
@@ -164,3 +164,73 @@ hr {
 .card-p{
     padding-top: 20px;
 }
+
+
+/****************************************/
+/*************HelpingSection**************/
+/****************************************/
+
+.helping-photo{
+    display: flex;
+    width: 85%;
+    margin: 80px auto 0 auto;
+    justify-content: space-evenly;  
+}
+
+.helping-photo div{
+    width: 50%;
+}
+
+.helping-photo h1{
+    margin-top: 50px;
+    font-size: 40px;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.helping-photo p{
+    padding: 30px 10px 40px 0;
+    margin-right: 15%;
+}
+
+.helping-photo img{
+    width: 80%;
+    margin-left: 15%;
+}
+
+
+
+
+.helping-photo-2{
+    display: flex;
+    width: 85%;
+    margin: 100px auto 0 auto;
+    justify-content: space-evenly;  
+}
+
+.helping-photo-2 div{
+    width: 50%;
+}
+
+.helping-photo-2 img{
+    width: 80%;
+    margin-right: 15%;
+}
+
+
+
+.helping-photo-2 h1{
+    margin-top: 50px;
+    font-size: 40px;
+    margin-left: 15%;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+.helping-photo-2 p{
+    padding: 30px 10px 40px 0;
+    margin-left: 15%;
+}
+
+.helping-photo-2 a{
+    margin-left: 15%;
+}
+
