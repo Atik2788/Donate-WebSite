@@ -137,21 +137,21 @@ hr {
 
 #card-1 {
     width: 30%;
-    padding: 40px 10px 25px 20px;
+    padding: 40px 25px 25px 25px;
     margin: 8px;
     background-color: rgba(134, 195, 230, 0.274);
 }
 
 #card-2 {
     width: 30%;
-    padding: 40px 10px 25px 20px;
+    padding: 40px 25px 25px 25px;
     margin: 8px;
     background-color: rgba(230, 134, 134, 0.274);
 }
 
 #card-3 {
     width: 30%;
-    padding: 40px 10px 25px 20px;
+    padding: 40px 25px 25px 25px;
     margin: 8px;
     background-color: rgba(161, 230, 134, 0.274);
 }
@@ -167,6 +167,7 @@ hr {
 #planCard img {
     display: flex;
     margin: auto;
+    padding: auto;
 }
 
 
