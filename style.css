@@ -14,11 +14,18 @@
 
 #h-heading {
     padding-top: 15px;
-    margin-bottom: 100px;
     color: rgb(255, 255, 255);
     font-size: 65px;
     text-shadow: rgb(8, 8, 8) 8px 0 10px;
     font-family: 'Archivo Black', sans-serif;
+}
+#buyHappyness{
+    margin:0 auto 120px auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-shadow: rgb(7, 7, 7) 5px 0 5px;
 }
 
 #h-edit {
@@ -28,7 +35,7 @@
     background-color: rgba(0, 0, 0, 0.568);
 }
 
-#header p {
+#headerP {
     color: white;
     width: 60%;
     margin: auto;
