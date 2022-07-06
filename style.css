@@ -8,7 +8,7 @@
     width: 100%;
     height: 400px;
     margin: auto;
-    background: rgba(0, 0, 0, 0.137) url(images/donation6.jpg) no-repeat top left / cover;
+    background: rgba(0, 0, 0, 0.048) url(images/donation6.jpg) no-repeat top left / cover;
     background-blend-mode: darken;
     align-items: center;
     text-align: center;
@@ -122,7 +122,7 @@ hr {
     padding: 25px 15px;
 }
 
-#planCard{
+#planCard {
     margin: 50px 0 50px 0;
     font-size: 25px;
     font-weight: bold;
@@ -133,35 +133,39 @@ hr {
 
 
 /***********planCard***************/
-.planCard{
+.planCard {
     display: flex;
     width: 85%;
     margin: 20px auto 0 auto;
     justify-content: space-evenly;
 }
 
-.card-1{
+.card-1 {
     width: 30%;
     padding: 40px 10px 25px 20px;
     margin: 5px;
     background-color: rgba(134, 195, 230, 0.274);
 }
-.card-2{
+
+.card-2 {
     width: 30%;
     padding: 40px 10px 25px 20px;
     margin: 5px;
     background-color: rgba(230, 134, 134, 0.274);
 }
-.card-3{
+
+.card-3 {
     width: 30%;
     padding: 40px 10px 25px 20px;
     margin: 5px;
     background-color: rgba(161, 230, 134, 0.274);
 }
-.card-h{
+
+.card-h {
     padding-top: 20px;
 }
-.card-p{
+
+.card-p {
     padding-top: 20px;
 }
 
@@ -170,29 +174,29 @@ hr {
 /*************HelpingSection**************/
 /****************************************/
 
-#helping-photo{
+#helping-photo {
     display: flex;
     width: 85%;
     margin: 80px auto 0 auto;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;
 }
 
-#helping-photo div{
+#helping-photo div {
     width: 50%;
 }
 
-#helping-photo h1{
+#helping-photo h1 {
     margin-top: 50px;
     font-size: 40px;
     font-family: 'Archivo Black', sans-serif;
 }
 
-#helping-photo p{
+#helping-photo p {
     padding: 30px 10px 40px 0;
     margin-right: 5%;
 }
 
-#helping-photo img{
+#helping-photo img {
     width: 80%;
     margin-left: 5%;
 }
@@ -200,37 +204,37 @@ hr {
 
 
 
-#helping-photo-2{
+#helping-photo-2 {
     display: flex;
     width: 85%;
     margin: 100px auto 0 auto;
-    justify-content: space-evenly;  
+    justify-content: space-evenly;
 }
 
-#helping-photo-2 div{
+#helping-photo-2 div {
     width: 50%;
 }
 
-#helping-photo-2 img{
+#helping-photo-2 img {
     width: 80%;
     margin-right: 5%;
 }
 
 
 
-#helping-photo-2 h1{
+#helping-photo-2 h1 {
     margin-top: 50px;
     font-size: 40px;
     margin-left: 5%;
     font-family: 'Archivo Black', sans-serif;
 }
 
-#helping-photo-2 p{
+#helping-photo-2 p {
     padding: 30px 10px 40px 0;
     margin-left: 5%;
 }
 
-#helping-photo-2 a{
+#helping-photo-2 a {
     margin-left: 5%;
 }
 
@@ -239,23 +243,24 @@ hr {
 /**************UpdateSection*************/
 /****************************************/
 
-#update{
+#update {
     margin: 80px auto 0 auto;
     width: 70%;
     text-align: center;
 }
- #update h1{
+
+#update h1 {
     font-size: 35px;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
     margin: 25px auto;
- }
+}
 
- #update p{
+#update p {
     margin-bottom: 35px;
- }
+}
 
- #box{
+#box {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,21 +268,53 @@ hr {
     height: 130px;
     width: 70%;
     margin: auto;
- }
+}
 
- #form-box input{
+#form-box input {
     padding: 10px;
+    width: 250px;
     border-radius: 3px;
     border: none;
     outline: none;
     background-color: rgb(225, 215, 250);
- }
- 
- #form-box button{
+}
+
+#form-box button {
     padding: 10px 50px;
+    width: 150px;
     border-radius: 3px;
     border: none;
     outline: none;
-    color:white;
+    color: white;
     background-color: rgb(248, 54, 54);
- }
+    cursor: pointer;
+}
+
+#form-box button:hover {
+    background-color: red;
+}
+
+
+/****************************************/
+/**************Footer*************/
+/****************************************/
+
+footer {
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(30, 30, 36);
+}
+
+footer h1 {
+    padding: 30px 0 10px 0;
+    margin: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(253, 153, 59);
+}
+
+footer p {
+    padding-top: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(182, 181, 181);
+}
