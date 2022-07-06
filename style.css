@@ -289,17 +289,19 @@ hr {
 }
 
 #form-box input {
+    margin-right: -8px;
     padding: 10px 0 10px 10px;
     width: 250px;
-    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
     border: none;
     background-color: rgba(253, 198, 215, 0.438);
 }
 
 #form-box button {
     padding: 10px 50px;
-    width: 150px;
-    border-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
     border: none;
     color: white;
     background-color: rgb(248, 54, 54);
