@@ -8,7 +8,7 @@
     margin-top: 25px;
 }
 
-.jus-p{
+.jus-p {
     text-align: justify;
 }
 
@@ -292,7 +292,7 @@ hr {
     width: 250px;
     border-radius: 3px;
     border: none;
-    background-color: rgb(225, 215, 250);
+    background-color: rgba(253, 198, 215, 0.438);
 }
 
 #form-box button {
