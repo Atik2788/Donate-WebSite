@@ -7,10 +7,8 @@
 #header {
     width: 100%;
     height: 450px;
-    margin: auto;
     background: rgba(0, 0, 0, 0.048) url(images/donation6.jpg) no-repeat top left / cover;
     background-blend-mode: darken;
-    align-items: center;
     text-align: center;
 }
 
@@ -23,7 +21,7 @@
     font-family: 'Archivo Black', sans-serif;
 }
 
-.h-edit {
+#h-edit {
     margin-bottom: 15px;
     font-size: 40px;
     color: white;
@@ -70,7 +68,7 @@
 }
 
 #amount {
-    margin: 50px 0 50px 0;
+    margin: 50px 0;
     font-size: 25px;
     font-weight: bold;
     display: flex;
@@ -82,7 +80,7 @@
     padding: 25px 15px;
 }
 
-#tkSty {
+#tkStyle {
     color: rgb(228, 96, 96);
     background-color: rgba(218, 63, 63, 0.151);
     border: 2px solid rgb(228, 96, 96);
@@ -107,7 +105,7 @@
 
 hr {
     margin-bottom: 30px;
-    width: 80%;
+    width: 90%;
     margin: 0 auto 30px auto;
 }
 
@@ -161,7 +159,7 @@ hr {
 }
 
 .card-p {
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
 #planCard img {
@@ -179,7 +177,6 @@ hr {
     display: flex;
     width: 85%;
     margin: 80px auto 0 auto;
-    justify-content: space-evenly;
 }
 
 #helping-photo div {
@@ -189,6 +186,7 @@ hr {
 #helping-photo h1 {
     margin-top: 50px;
     font-size: 32px;
+    margin-right: 5%;
     font-family: 'Archivo Black', sans-serif;
 }
 
@@ -202,8 +200,7 @@ hr {
     margin-left: 5%;
 }
 
-
-
+/***********************************/
 
 #helping-photo-2 {
     display: flex;
@@ -252,7 +249,7 @@ hr {
 
 #update h1 {
     font-size: 30px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 25px auto;
 }
 
