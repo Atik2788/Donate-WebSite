@@ -300,7 +300,7 @@ hr {
 
 footer {
     margin-top: 80px;
-    height: 120px;
+    height: 125px;
     width: 100%;
     text-align: center;
     background-color: rgb(13, 13, 24);
@@ -308,7 +308,7 @@ footer {
 
 footer h1 {
     padding: 30px 0 10px 0;
-    font-family:sans-serif;
+    font-family: sans-serif;
     color: rgb(253, 153, 59);
 }
 
