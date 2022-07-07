@@ -250,6 +250,37 @@ hr {
 }
 
 /****************************************/
+/**************Galary-section*************/
+/****************************************/
+#Gallary {
+    margin: 100px auto 0 auto;
+    width: 100%;
+    text-align: center;
+}
+#Gallary-h1{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 25px auto;
+    padding: 10px 0;
+    background-color: rgba(0, 255, 255, 0.274);
+}
+
+#gal-img {
+    width: 85%;
+    margin: 40px auto;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(83, 82, 82);
+}
+
+#gal-img img {
+    width: 95%;
+}
+
+
+/****************************************/
 /**************About-section*************/
 /****************************************/
 #about {
